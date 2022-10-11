@@ -87,12 +87,17 @@ div.campo > i {
 div.campo > input {
     background-color: #68e1dd;
     font-size: 1em;
-    width: calc(100% - 45px);
+    width: calc(100% - 44.5px);
     height: 100%;
     transform: translateY(-13px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+}
+
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
